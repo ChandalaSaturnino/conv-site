@@ -778,7 +778,6 @@ a {
   }
 
 @media (min-width: 800px) {
-
     .row__b-margin-until-medium {
       margin-bottom: 0;
     }
@@ -808,7 +807,6 @@ a {
   }
 
 @media (min-width: 1010px) {
-
     .row__b-margin-until-large {
       margin-bottom: 0;
     }
@@ -841,15 +839,14 @@ a {
 
 @media (min-width: 800px) {
 
-.row--equal-height-at-medium {
+.flexbox .row--equal-height-at-medium {
       display: -webkit-box;
       display: -ms-flexbox;
       display: flex
-
   }
   }
 
-.row--equal-height-at-medium > div {
+.flexbox .row--equal-height-at-medium > div {
       float: none;
       display: -webkit-box;
       display: -ms-flexbox;
@@ -858,15 +855,14 @@ a {
 
 @media (min-width: 1010px) {
 
-.row--equal-height-at-large {
+.flexbox .row--equal-height-at-large {
       display: -webkit-box;
       display: -ms-flexbox;
       display: flex
-
   }
   }
 
-.row--equal-height-at-large > div {
+.flexbox .row--equal-height-at-large > div {
       float: none;
       display: -webkit-box;
       display: -ms-flexbox;
@@ -1028,83 +1024,83 @@ a {
 Instead edit gulp/templates/sprite */
 
 .icon {
-      background-image: url('/assets/images/sprites/sprite-d675eadb.svg');
+      background-image: url('/assets/images/sprites/sprite-cbdfe7ac.svg');
     }
 
 .no-svg .icon {
-      background-image: url('/assets/images/sprites/sprite-d675eadb.png');
+      background-image: url('/assets/images/sprites/sprite-cbdfe7ac.png');
     }
 
 .icon--clear-view-escapes {
-    width: 142.4px;
-    height: 59.53px;
+    width: 144.4px;
+    height: 61.53px;
     background-position: 0 0;
   }
 
 .icon--comment {
-    width: 64px;
-    height: 64px;
-    background-position: 99.70443349753694% 0;
+    width: 66px;
+    height: 66px;
+    background-position: 99.71014492753623% 0;
   }
 
 .icon--facebook {
-    width: 21.23px;
-    height: 42.01px;
-    background-position: 26.040607071652357% 45.795830448496034%;
+    width: 23.23px;
+    height: 44.01px;
+    background-position: 26.424310365536293% 45.92133741323979%;
   }
 
 .icon--fire {
-    width: 56px;
-    height: 64px;
-    background-position: 0 99.56481481481481%;
+    width: 58px;
+    height: 66px;
+    background-position: 0 99.58035714285714%;
   }
 
 .icon--globe {
-    width: 64px;
-    height: 64px;
-    background-position: 27.586206896551722% 99.56481481481481%;
+    width: 66px;
+    height: 66px;
+    background-position: 28.019323671497585% 99.58035714285714%;
   }
 
 .icon--instagram {
-    width: 42.01px;
-    height: 42.01px;
-    background-position: 63.2917018534157% 49.234556504346486%;
+    width: 44.01px;
+    height: 44.01px;
+    background-position: 63.059522249879905% 49.25740726919919%;
   }
 
 .icon--mail {
-    width: 64px;
-    height: 48px;
-    background-position: 0 48.00806451612903%;
+    width: 66px;
+    height: 50px;
+    background-position: 0 48.0703125%;
   }
 
 .icon--rain {
-    width: 64px;
-    height: 64px;
-    background-position: 99.70443349753694% 59.25925925925926%;
+    width: 66px;
+    height: 66px;
+    background-position: 99.71014492753623% 58.92857142857143%;
   }
 
 .icon--star {
-    width: 64px;
-    height: 64px;
-    background-position: 59.11330049261084% 99.56481481481481%;
+    width: 66px;
+    height: 66px;
+    background-position: 59.90338164251208% 99.58035714285714%;
   }
 
 .icon--twitter {
-    width: 51.78px;
-    height: 42.06px;
-    background-position: 94.04330452560171% 98.50700323226104%;
+    width: 53.78px;
+    height: 44.06px;
+    background-position: 94.15199343125627% 98.55159026429745%;
   }
 
 .icon--wifi {
-    width: 60px;
-    height: 64px;
-    background-position: 68.79227053140097% 0;
+    width: 62px;
+    height: 66px;
+    background-position: 68.43601895734596% 0;
   }
 
 .icon--youtube {
-    width: 34.75px;
-    height: 42px;
-    background-position: 36.69752421959096% 45.792307692307695%;
+    width: 36.75px;
+    height: 44px;
+    background-position: 37.76931216931217% 45.917910447761194%;
   }
 
 .site-footer {
@@ -1134,23 +1130,23 @@ Instead edit gulp/templates/sprite */
   position: absolute;
   width: 100%;
   z-index: 2;
-  -webkit-transition: background-color .3s ease-out;
-  transition: background-color .3s ease-out;
+  -webkit-transition: background-color 0.3s ease-out;
+  transition: background-color 0.3s ease-out;
 }
 
 .site-header--is-expanded {
-    background-color: rgba(47,85,114, .55);
+    background-color: rgba(47,85,114, 0.55);
   }
 
 @media (min-width: 800px) {
 
 .site-header {
     position: fixed;
-    background-color: rgba(47,85,114, .3)
+    background-color: rgba(47,85,114, 0.3)
 }
 
     .site-header--dark {
-      background-color: rgba(23, 51, 72, .85);
+      background-color: rgba(23, 51, 72, 0.85);
     }
   }
 
@@ -1165,12 +1161,12 @@ Instead edit gulp/templates/sprite */
     position: absolute;
     top: 0;
     left: 50%;
-    -webkit-transform: translateX(-50%) scale(.8);
-            transform: translateX(-50%) scale(.8);
-    -webkit-transition: -webkit-transform .3s ease-out;
-    transition: -webkit-transform .3s ease-out;
-    transition: transform .3s ease-out;
-    transition: transform .3s ease-out, -webkit-transform .3s ease-out;
+    -webkit-transform: translateX(-50%) scale(0.8);
+            transform: translateX(-50%) scale(0.8);
+    -webkit-transition: -webkit-transform 0.3s ease-out;
+    transition: -webkit-transform 0.3s ease-out;
+    transition: transform 0.3s ease-out;
+    transition: transform 0.3s ease-out, -webkit-transform 0.3s ease-out;
     -webkit-transform-origin: 50% 0;
             transform-origin: 50% 0;
     background-color: #2f5572;
@@ -1186,8 +1182,8 @@ Instead edit gulp/templates/sprite */
   }
 
       .site-header--dark .site-header__logo {
-        -webkit-transform: scale(.57);
-                transform: scale(.57);
+        -webkit-transform: scale(0.56);
+                transform: scale(0.56);
       }
   }
 
@@ -1205,19 +1201,19 @@ Instead edit gulp/templates/sprite */
   }
 
 .site-header__menu-icon::before {
-      content: "";
+      content: '';
       position: absolute;
       top: 0;
       left: 0;
       width: 20px;
       height: 3px;
-      background-color: #FFF;
+      background-color: #fff;
       -webkit-transform-origin: 0 0;
               transform-origin: 0 0;
-      -webkit-transition: -webkit-transform .3s ease-out;
-      transition: -webkit-transform .3s ease-out;
-      transition: transform .3s ease-out;
-      transition: transform .3s ease-out, -webkit-transform .3s ease-out;
+      -webkit-transition: -webkit-transform 0.3s ease-out;
+      transition: -webkit-transform 0.3s ease-out;
+      transition: transform 0.3s ease-out;
+      transition: transform 0.3s ease-out, -webkit-transform 0.3s ease-out;
     }
 
 .site-header__menu-icon__middle {
@@ -1226,27 +1222,27 @@ Instead edit gulp/templates/sprite */
       left: 0;
       width: 20px;
       height: 3px;
-      background-color: #FFF;
-      -webkit-transition: all .3s ease-out;
-      transition: all .3s ease-out;
+      background-color: #fff;
+      -webkit-transition: all 0.3s ease-out;
+      transition: all 0.3s ease-out;
       -webkit-transform-origin: 0 50%;
               transform-origin: 0 50%;
     }
 
 .site-header__menu-icon::after {
-      content: "";
+      content: '';
       position: absolute;
       bottom: 0;
       left: 0;
       width: 20px;
       height: 3px;
-      background-color: #FFF;
+      background-color: #fff;
       -webkit-transform-origin: 0 100%;
               transform-origin: 0 100%;
-      -webkit-transition: -webkit-transform .3s ease-out;
-      transition: -webkit-transform .3s ease-out;
-      transition: transform .3s ease-out;
-      transition: transform .3s ease-out, -webkit-transform .3s ease-out;
+      -webkit-transition: -webkit-transform 0.3s ease-out;
+      transition: -webkit-transform 0.3s ease-out;
+      transition: transform 0.3s ease-out;
+      transition: transform 0.3s ease-out, -webkit-transform 0.3s ease-out;
     }
 
 @media (min-width: 800px) {
@@ -1276,8 +1272,8 @@ Instead edit gulp/templates/sprite */
     opacity: 0;
     -webkit-transform: scale(1.2);
             transform: scale(1.2);
-    -webkit-transition: all .3s ease-out;
-    transition: all .3s ease-out;
+    -webkit-transition: all 0.3s ease-out;
+    transition: all 0.3s ease-out;
     position: relative;
     z-index: -10;
     padding-top: 90px;
